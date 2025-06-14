@@ -1,0 +1,175 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f7fa;
+    color: #222;
+}
+header {
+    background: #2d3e50;
+    color: #fff;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+}
+nav {
+    background: #1abc9c;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+nav ul li a:hover {
+    color: #222;
+}
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+}
+h2 {
+    color: #1abc9c;
+    margin-top: 0;
+}
+.gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(44,62,80,0.12);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+input, textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+button {
+    background: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #159c85;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #2d3e50;
+    color: #fff;
+    margin-top: 2rem;
+    border-radius: 0 0 8px 8px;
+}
+#formMessage {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #1abc9c;
+}
+
+.glow-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background: #1abc9c;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 8px #1abc9c, 0 0 16px #1abc9c;
+    text-decoration: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s, background 0.3s;
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+.glow-btn:hover, .glow-btn:focus {
+    background: #159c85;
+    box-shadow: 0 0 16px #1abc9c, 0 0 32px #1abc9c, 0 0 48px #1abc9c;
+    color: #fff;
+}
+.about-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.profile-photo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.15);
+    border: 3px solid #1abc9c;
+    display: block;
+    margin: 0 auto;
+}
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.contact-list li {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+.contact-list a {
+    color: #1abc9c;
+    text-decoration: none;
+    word-break: break-all;
+}
+.contact-list a:hover {
+    text-decoration: underline;
+}
+#formMessage {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #1abc9c;
+}
+.img1, .img2, .img3 {
+    filter: Grayscale(100%);
+}
+.img1:hover:hover {
+    filter: Grayscale(0%);
+}
+.img2:hover:hover {
+    filter: Grayscale(0%);
+}
+.img3:hover:hover {
+    filter: Grayscale(0%);
+}
